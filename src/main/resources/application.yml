@@ -1,0 +1,14 @@
+server:
+  shutdown: graceful
+  port: 8080
+spring:
+  application:
+    name: spring-webflux-hands-on-application
+  main:
+    banner-mode: off
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/spring-webflux-hands-on
+springdoc:
+  swagger-ui:
+    path: /
